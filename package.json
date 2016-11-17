@@ -1,0 +1,33 @@
+{
+  "name": "weldy",
+  "version": "1.0.0",
+  "description": "A simple implementation of pipe operator for Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "co": "4.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "mongodb": "^2.2.11",
+    "node-fetch": "^1.6.3",
+    "standard": "*"
+  },
+  "scripts": {
+    "test": "standard && node_modules/mocha/bin/mocha --recursive test",
+    "coverage": "istanbul cover _mocha -- test"
+  },
+  "keywords": [
+    "pipe",
+    "functions",
+    "concat",
+    "functional",
+    "generator",
+    "async"
+  ],
+  "author": "Stefano Armenes",
+  "license": "MIT",
+  "repository": "stearm/weldy"
+}

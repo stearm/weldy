@@ -1,0 +1,10 @@
+node_modules
+.idea
+*.log
+npm-debug.log*
+coverage
+.npm
+coverage
+jsdoc
+.idea
+*.iml
