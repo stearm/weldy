@@ -27,6 +27,9 @@
     "generator",
     "async"
   ],
+  "engines": {
+    "node": ">= 5.0.0"
+  },
   "author": "Stefano Armenes",
   "license": "MIT",
   "repository": "stearm/weldy"
