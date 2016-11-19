@@ -14,7 +14,7 @@ Simple arithmetical operations:
 
 ```javascript
 weldy(5, [  // first argument for sqrt function
-  [ sqrt ],
+  [ square ],
   [ sum, 3, 4, 5 ],
   [ sub, 4 ],
   [ console.log ] // 33

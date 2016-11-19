@@ -4,14 +4,14 @@
 const expect = require('chai').expect
 const weldy = require('../index')
 
-const sqrt = a => a * a
+const square = a => a * a
 const sum = (a, b, c, d) => a + b + c + d
 const sub = (a, b) => a - b
 
 describe('basic.test', function () {
-  it('should return the sqrt of 4', function (done) {
+  it('should return the square of 4', function (done) {
     weldy(4, [
-      [ sqrt ]
+      [ square ]
     ]).then(function (result) {
       expect(result.value).to.equals(16)
       done()
